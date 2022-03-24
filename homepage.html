@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VASTU EXPERT | HOMEPAGE</title>
+    <link rel="icon" href="logo.png">
+</head>
+    <style>
+        body{
+            background-image : linear-gradient( to right ,#f0d8b0, whiteSmoke) ;
+        }
+        .nav {
+        
+        display : inline-block ;
+        position :absolute ;
+        width : 1500px ;
+        height : 80px ;
+        background-image : linear-gradient( to right, whiteSmoke , #fbd491) ;
+        box-shadow : 4px 4px 8px 0 rgb(238, 172, 86) , -2px 2px 12px 0 white  ;
+        border-radius : 20px ;
+    }
+
+   #logo2{
+       display : inline-block ;
+       position : absolute ;
+       width : 60px ;
+       height : 60px ;
+       left : 45px ;
+       border-radius : 100% ;
+       background : rgb(245, 228, 182) ;
+       box-shadow : 4px 4px 8px 0 rgb(238, 172, 86) , -6px 6px 12px 0 white  ;
+       top : 8px ;
+   }
+
+   #name {
+      display : inline-block;
+       position :absolute ;
+       
+       font-size : 1.3em ;
+       left : 120px ;
+       width : 125px ;
+       text-align : center ;
+       top : 20% ;
+   }
+
+   .main-nav {
+       display: inline-block;
+       position : absolute;
+       width : 500px ;
+       left : 0 ;
+       margin-top : 25px ;
+      
+   }
+     
+     #home ,#join-us ,#log-in, #about , #contact,#feedback{
+         display : inline-block ;
+        color : rgb(59, 58, 58) ;
+         position : absolute;
+         width : 120px  ;
+         text-decoration : none ;
+         letter-spacing : 2px ;
+         font-size : 1.2em ;
+       
+     }
+
+     #home {
+         left : 300px ;
+     }
+
+     #join-us {
+       left : 500px ;
+     }
+
+     #log-in {
+       left : 700px ;
+     }
+
+     #about {
+         left :450px ;
+     }
+
+     #contact{
+         left :600px ;
+     }
+     #feedback{
+          left: 780px;
+     }
+
+     #home:hover ,#join-us:hover ,#log-in:hover, #about:hover , #contact:hover ,#feedback:hover{
+         
+         width : 150px ;
+         color : rgb(224, 78, 52) ;
+         
+     }
+
+     .img {
+          display : block ;
+          position : absolute ;
+          width : 1400px ;
+          height : 600px ;
+          border : 2px solid #fbd491 ;
+          background-image: url(cov.jpg);
+          background-size: cover;
+          top : 100px ;
+          left : 50px  ;
+          box-shadow : 6px 6px 12px 0 #bbbbba , -4px -4px 12px 0 #f8c63c ;
+                }
+        
+        #navpic1{
+            margin-left: 1200px;  
+            position : absolute; 
+                
+         }
+         #navpic2{
+            margin-left: 1240px;   
+            position : absolute;
+               
+         }
+         #navpic3{
+            margin-left: 1280px;  
+            position : absolute;     
+         }
+         #navpic4{
+            margin-left: 1320px;  
+            position : absolute;     
+         }
+         #navpic1:hover   {
+filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
+
+
+#navpic2:hover   {
+filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(57%);
+}
+
+#navpic3:hover   {
+filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(240deg) brightness(104%) contrast(57%);
+}  
+
+
+#navpic4:hover   {
+filter: invert(27%) sepia(100%) saturate(3008%) hue-rotate(260deg) brightness(104%) contrast(97%);
+}
+          
+         #quote {
+            
+        display : block ;
+        font-size : 2.5em ;
+        color : white ;
+        position: absolute;
+        left: 170px ;
+        font-family: 'Lobster', cursive;
+        word-spacing: 5px ;
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 10px  black;
+       
+         }  
+
+         #btn {
+        display :none  ;
+        position :absolute;
+        width : 250px ;
+        height : 60px ;
+        top : 230px ;
+        left : 850px ;
+        background: rgb(236, 130, 81) ;
+        border-radius : 23px ;
+        font-size : 1.3em ;
+        scroll-behavior: smooth;
+        
+        border : none ; 
+        font-family: 'Baloo Bhaina 2', cursive;
+        
+
+         }
+
+         #heading1{
+             margin-top: 650px;
+             margin-left: 600px;
+             font-family: 'Baloo Bhaina 2', cursive;
+         }
+         #para1{
+            font-size: 24px;
+         }
+         #heading2{
+            margin-top: 670px;
+             margin-left: 560px;
+             font-family: 'Baloo Bhaina 2', cursive;
+         }
+
+         .cards {
+          position : absolute ;
+          top : 760px ;
+      }
+
+      
+  
+        
+
+  #card1{
+    border : 1.5px solid #eba44e ;
+        border-radius : 3px ;
+          display: inline-block;
+          position : relative ;
+          width : 370px ;
+          height : 600px ;
+          margin : 50px ;
+          left: -110px;
+            box-shadow : 4px 4px 12px 0 #bbbbba , -4px -4px 12px 0 #bbbbba ;
+            background: rgb(241, 239, 239);
+  }
+  #card2{
+    border : 1.5px solid #eba44e ;
+        border-radius : 3px ;
+          display: inline-block;
+          position : relative ;
+          width : 370px ;
+          height : 600px ;
+          margin : 50px ;
+          left: -210px;
+          top: 100px;
+            box-shadow : 4px 4px 12px 0 #bbbbba , -4px -4px 12px 0 #bbbbba ;
+            background: rgb(241, 239, 239);
+  }
+  #card3{
+    border : 1.5px solid #eba44e ;
+        border-radius : 3px ;
+          display: inline-block;
+          position : relative ;
+           width : 370px ;
+          height : 600px ;
+          left: -260px;
+          top: -50px;
+            box-shadow : 4px 4px 12px 0 #bbbbba , -4px -4px 12px 0 #bbbbba ;
+            background: rgb(241, 239, 239);
+  }
+  #card4{
+    border : 1.5px solid #eba44e ;
+        border-radius : 3px ;
+          display: inline-block;
+          position : relative ;
+          width : 370px ;
+          height : 600px ;
+          margin : 50px ;
+          left: 1020px;
+          top: -500px;
+            box-shadow : 4px 4px 12px 0 #bbbbba , -4px -4px 12px 0 #bbbbba ;
+            background: rgb(241, 239, 239);
+  }
+            #img1:hover ,#img2:hover ,#img3:hover , #img4:hover{
+
+ opacity: 50%;
+            }
+
+        #video1{
+            margin-top: 600px;
+            margin-left: -675px;
+            height: 400px;
+            width: 600px;
+            
+        }
+            #card5{
+    border : 1.5px solid #eba44e ;
+        border-radius : 3px ;
+          display: inline-block;
+          position : absolute ;
+          width : 370px ;
+          height : 600px ;
+          margin : 50px ;
+          left: -1184px;
+          top: 1000px;
+            box-shadow : 4px 4px 12px 0 #bbbbba , -4px -4px 12px 0 #bbbbba ;
+            background: rgb(241, 239, 239);
+  }
+            #img1:hover ,#img2:hover ,#img3:hover , #img4:hover{
+
+ opacity: 50%;
+            }
+            #card6{
+    border : 1.5px solid #eba44e ;
+        border-radius : 3px ;
+          display: inline-block;
+          position : absolute ;
+          width : 370px ;
+          height : 600px ;
+          margin : 50px ;
+          left: -807px;
+          top: 1100px;
+            box-shadow : 4px 4px 12px 0 #bbbbba , -4px -4px 12px 0 #bbbbba ;
+            background: rgb(241, 239, 239);
+  }
+            #img1:hover ,#img2:hover ,#img3:hover , #img4:hover{
+
+ opacity: 50%;
+            }
+            #card7{
+    border : 1.5px solid #eba44e ;
+        border-radius : 3px ;
+          display: inline-block;
+          position : absolute ;
+          width : 370px ;
+          height : 600px ;
+          margin : 50px ;
+          left: -430px;
+          top: 1000px;
+            box-shadow : 4px 4px 12px 0 #bbbbba , -4px -4px 12px 0 #bbbbba ;
+            background: rgb(241, 239, 239);
+  }
+            #img1:hover ,#img2:hover ,#img3:hover , #img4:hover{
+
+ opacity: 50%;
+            }
+            #card8{
+    border : 1.5px solid #eba44e ;
+        border-radius : 3px ;
+          display: inline-block;
+          position : absolute ;
+          width : 370px ;
+          height : 600px ;
+          margin : 50px ;
+          left: -53px;
+          top: 1200px;
+            box-shadow : 4px 4px 12px 0 #bbbbba , -4px -4px 12px 0 #bbbbba ;
+            background: rgb(241, 239, 239);
+  }
+            #img1:hover ,#img2:hover ,#img3:hover , #img4:hover{
+
+ opacity: 50%;
+            }
+            #img1 ,#img2 ,#img3 , #img4, #img5 ,#img6 ,#img7 , #img8 {
+           display : inline-block ;
+           position : absolute ;
+           border : 2px solid #ccc ;
+           width : 350px ;
+           left : 10px ;
+           top : 10px ;
+           height : 200px ;
+           
+        }
+      
+        #img1{
+         
+         background-image: url(firstcard.jpg);
+         background-size: cover ;
+
+        }
+        
+        
+
+
+        
+        #img2{
+         
+         background-image: url(secondcard.jpg);
+         background-size: cover ;
+        
+
+     }
+     #img3{
+         
+         background-image: url(thirdcard.jpg);
+         background-size: cover ;
+        
+
+     }
+     #img4{
+         
+         background-image: url(fourthcard.jpg);
+         background-size: cover ;
+        
+
+     }
+
+     #img5{
+         
+         background-image: url(image7.jpeg);
+         background-size: cover ;
+
+        }
+        
+        
+
+
+        
+        #img6{
+         
+         background-image: url(image6.jpeg);
+         background-size: cover ;
+        
+
+     }
+     #img7{
+         
+         background-image: url(image5.jpeg);
+         background-size: cover ;
+        
+
+     }
+     #img8{
+         
+         background-image: url(image10.jpeg);
+         background-size: cover ;
+        
+
+     }
+ 
+     #txt1 ,#txt2 ,#txt3 ,#txt4, #txt5 ,#txt6 ,#txt7 ,#txt8  {
+      display : inline-block ;
+      position : absolute ;
+      top : 220px ;
+     font-style :normal ; 
+      font-weight : 1000 ;
+      text-align: center;
+      font-family: 'Baloo Bhaina 2', cursive;
+      font-size : 1em ;
+           }
+
+           .pinfo{
+               position : absolute ;
+               top : 270px ;
+           }
+           .footer {
+  
+  width : 1500px ;
+  height : 200px ;
+  background-image : linear-gradient( to right, whiteSmoke , #fbd491) ;
+  box-shadow : 4px 4px 8px 0 rgb(238, 172, 86) , -2px 2px 12px 0 white  ;
+  border-radius : 20px ;
+  margin-top: 700px;
+  margin-left: -1120px;
+   
+}
+
+#logo69{
+display : inline-block ;
+ position : absolute ;
+ width : 60px ;
+ height : 60px ;
+ left : -1065px ;
+ border-radius : 100% ;
+ background : rgb(245, 228, 182) ;
+ box-shadow : 4px 4px 8px 0 rgb(238, 172, 86) , -6px 6px 12px 0 white  ;
+ top : 750px ;
+}
+
+#name2 {
+display : inline-block;
+ position :absolute ;
+ font-family: 'Bebas Neue', cursive;
+ font-size : 1.3em ;
+ left : -1000px ;
+ width : 125px ;
+ text-align : center ;
+ top :750px ;
+}
+#para {
+ position : absolute ;
+ top :750px ; width : 700px ;
+ height : 70px ;
+ left : -870px ;
+ font-family: 'Montserrat', sans-serif;
+
+}
+
+#element42{
+ 
+ position : absolute ;
+ left : -70px ;
+ width : 400px ;
+ top :710px ;
+}
+
+#email-txt , #no-txt {
+position : absolute ;
+top :50px ;}
+
+
+#email-txt {
+
+left : -35px ;
+top :50px 
+}
+
+#no-txt {
+top : 40px ;
+left : 270px ;
+}
+
+#icon3 ,#icon4  {
+position : absolute ;
+top : 10px ;
+}
+
+#icon4 {
+
+left : 300px ;
+}
+
+#follow {
+
+position : absolute ;
+left : 100px ;
+top :800px ;
+font-family: 'Baloo Bhaina 2', cursive;
+}
+
+#icon5 ,#icon6 ,#icon7 ,#icon8 {
+position : absolute ;
+top :830px ;
+
+}
+
+#icon5{
+left : 90px ;
+}
+
+#icon6{
+left : 120px ;
+}
+
+#icon7{
+left : 150px ;
+}
+#icon8{
+left : 180px ;
+}
+
+
+#icon3:hover , #icon4:hover{
+
+filter: invert(100%) ;
+}
+
+#icon8:hover   {
+filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
+
+
+#icon7:hover   {
+filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(57%);
+}
+
+#icon5:hover   {
+filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(240deg) brightness(104%) contrast(57%);
+}  
+
+
+#icon6:hover   {
+filter: invert(27%) sepia(100%) saturate(3008%) hue-rotate(260deg) brightness(104%) contrast(97%);
+}
+#link1{
+    font-size: 20px;
+    color: #f8a81c;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 130px;
+}
+#link2{
+    font-size: 20px;
+    color: #f8a81c;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 130px;
+}
+#link3{
+    font-size: 20px;
+    color: #f8a81c;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 130px;
+}
+#link4{
+    font-size: 20px;
+    color: #f8a81c;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 130px;
+}
+
+
+    </style>
+<body>
+    <a href="#btn"></a>
+  <div class="nav"> 
+   <div class="logo"> 
+    <img id="logo2" src="logo.png"> 
+    <span id="name">VASTU EXPERT</span> 
+   </div> 
+
+   <div class="main-nav"> 
+    <a href="about.html" id="about">ABOUT</a> 
+    <a href="contact.html" id="contact">CONTACT</a>    
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdh3W0fimEG4ybWLNq12mYXTUoOnrir4AIatCXMLBmXt8K3PA/viewform?usp=sf_link"id="feedback">FEEDBACK</a>
+    <a href="https://www.instagram.com/chitrajawandhiya/"><img id="navpic1" src="instagram.svg" alt=""></a>
+    <a href="https://www.facebook.com/chitra.jawandhiya"><img id="navpic2" src="facebook.svg" alt=""></a>
+    <a href="#"><img id="navpic3" src="twitter.svg" alt=""></a>
+    <a href="https://www.youtube.com/channel/UCoDOk_WwQQlL_QLOGuJvE5w"><img id="navpic4" src="youtube.svg" alt=""></a>
+   </div> 
+
+   <div class="img"> 
+    <pre id="quote">Chitrakruti Interiors and Vastu the "Growth Guru"
+                                         
+    </pre>
+    <a href="#card1">  <button type="button" id="btn">DONATE</button> </a>
+
+    
+
+ <h1 id="heading2">Featured Services</h1>
+  <div class="cards"> 
+    <div id="card1"><span id="img1"><span id="txt1">CHANGE YOUR LIFE, CHANGE YOUR SIGNATURE  </span><span class="pinfo" ><br>
+        <a id="link1" href="https://www.youtube.com/watch?v=mL0IqnUiXOo&t=26s">Youtube</a>
+    </span><span id="background"></span>  </span>   
+        
+    </div>
+    <div id="card2"><span id="img2"><span id="txt2">EVERY WRITING HAS A TALE TO TELL  </span><span class="pinfo"><br><a id="link2" href="https://www.youtube.com/watch?v=sw1T6OQgPM8">Youtube</a></span> </span>
+           
+    </div> 
+    <div id="card3"><span id="img3"><span id="txt3">ROMANCE THROUGH GRAPHOLOGY </span><span class="pinfo"><a id="link3" href="https://www.youtube.com/watch?v=JyJfA-jNrgk">Youtube</a></span></span>
+    </div> 
+    <div id="card4"><span id="img4"><span id="txt4">IMPORTANCE OF MOLI IN RAKSHA BANDHAN  </span><span class="pinfo"><br><a id="link4" href="https://www.youtube.com/watch?v=tgwCmAfGsLw">Youtube</a></span></span>
+        <video id="video1" src="video1.mp4" controls loop muted poster="image9.jpeg"></video>
+
+         
+            <div id="card5"><span id="img5"><span id="txt5">GRAPHOLOGY- Handwriting and signature, Analysis and correction<br><br>
+            We know that "Every individual has a unique handwriting". But do you know that every individual has a tale to tell. Handwriting is an unconscious habit of an individual and it tells information about a person through brain impulses. by correcting them one can change its destiny. The growth guru Dr. Chitra Jawandhiya analysis your handwriting and signature and then recommends you a minor or major corrections.   </span><span class="pinfo" ><br>
+            </span><span id="background"></span>  </span>   
+                
+            </div>
+            <div id="card6"><span id="img6"><span id="txt6">VASTU SHASTRA <br><br> Vastu shastra in ancient science means science of architechture. This text describes the principle of design layout measurements ground preparation, space arrangement and spatial geometry. It combines all five elements of nature and balance them with man and material. It creates a congential settings or a place to live or work in most scientific way talking advantages of the benefits bestowed by the five elements of the nature therapy paving the way. For enhanced health, wealth, prosperity of happiness in an enlightened environment.   </span><span class="pinfo"><br></span> </span>
+                   
+            </div> 
+            <div id="card7"><span id="img7"><span id="txt7">INTERIOR DESIGNER<br><br> Designer Dr. Chitra Jawandhiya is young and eminate designer whose work gained her recognition in very short span of time. Her design are elegant, sophisticated and integrate various style. Designer chitra Jawandhiya believes "Designing is her passion" and design every room as a art piece of which tells a its own story with smiling face.</span><span class="pinfo"></span></span>
+            </div> 
+            <div id="card8"><span id="img8"><span id="txt8">MAHAVASTU <br><br> Mahavastu is a throughly systematic, logical and scientific approach to vastu. It is simply the ancient time-tested. Mahavastu helps you to evaluate your own space in order to locate the root cousre of your problems. Thus it is an aid to your dream life in which you can achieve your target and fulfill your desires. These Mahavastu is the most reliable scientific unique system of vastu analysis and management with accuracy.  </span><span class="pinfo"><br></span></span>
+
+       
+        
+    
+<footer>
+    <div class="footer">
+    <div class="logo69"> 
+        <img id="logo69" src="logo.png"> 
+        <span id="name2">VASTU EXPERT</span> 
+        <span id="para"> </span>
+        <span id="element42">
+            <a href="mailto:chitra2jawandhiya@gmail.com
+            "> <img  id="icon3" src="email.svg"></a>
+            <span id="email-txt">chitra2jawandhiya@gmail.com</span>
+            <pre id="no-txt">+91 9765235599</pre>
+            <img id="icon4" src="phone.svg"></span>
+           <span id="element69">
+           <span id="follow"> Follow us on</span>
+           <a href="https://www.facebook.com/chitra.jawandhiya"> <img id="icon5" src="facebook.svg"></a>
+            <a href="#"> <img  id="icon6"src="twitter.svg"> </a>
+            <a href="https://www.instagram.com/chitrajawandhiya/"> <img  id="icon7" src="instagram.svg"> </a>
+           <a href="https://www.youtube.com/channel/UCoDOk_WwQQlL_QLOGuJvE5w"> <img  id="icon8"src="youtube.svg"></a>
+        </span>    
+    </div>
+</div>
+
+</footer>
+
+</body>
+</html>
